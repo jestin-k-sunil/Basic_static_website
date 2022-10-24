@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+}
+
+/*NavBar settings*/
+
+.nav-bar {
+    width: 100%;
+    background-color: #56600c;
+    overflow: auto;
+}
+
+.nav-bar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 32px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: #ddff34;
+}
+
+/*Portfolio header settings*/
+
+.portfolio-header {
+    width: 100%;
+    background-color: #16572a;
+    overflow: auto;
+    margin-top: 1%;
+}
+
+#cv-img {
+    border-radius: 50%;
+    margin: 2%;
+    width: 15%;
+    height: 15%;
+    float: left;
+    padding: 1%;
+}
+
+#cv-head-content {
+    color: whitesmoke;
+    padding: 6%;
+    margin: 0;
+} 
+
+#cv-head-content h1,#cv-head-content h2 {
+    margin: 0;
+}
+
+#cv-head-content h2 {
+    color: #4D8BC5;
+}
+
+#cv-head-content p {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+/* portfolio-contact settings*/
+
+.portfolio-contact {
+    width: 100%;
+    background-color: #2B343F;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-contact h3{
+    width: 33%;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* educationt settings */
+
+.education {
+    margin: 2px;
+    text-align: center;
+    border: solid #2B343F;
+
+}
+
+.education h1 {
+    text-decoration: underline;
+    color: #4D8BC5;
+}
+
+.education h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#uni-date {
+    display: inline;
+    margin-inline-end: 22%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.education h3 {
+    display: inline-block;
+    margin-inline-end: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.education li {
+    display: inline-block;
+}
+
+/* Work Experance settings */
+
+.work-experiance {
+    text-align: center;
+    border: solid #2B343F;
+    margin: 2px;
+}
+
+.work-experiance h1 {
+    text-decoration: underline;
+    color: #4D8BC5;
+}
+
+.work-experiance h2 {
+    margin-bottom: 0;
+    text-decoration: underline;
+    color: #374458;
+}
+
+#date {
+    display: inline;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.work-experiance h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+/* Soft Skills setting */
+
+
+.soft-skills {
+    text-align: center;
+    border: solid #2B343F;
+    margin: 2px;
+}
+
+.soft-skills h1 {
+    text-decoration: underline;
+    color: #4D8BC5;
+}
+
+.soft-skills li {
+    display: inline-block;
+    margin-inline-end: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* honor awards setting */
+
+.honor-awards {
+    text-align: center;
+    border: solid #2B343F;
+    margin: 2px;
+}
+
+.honor-awards h1 {
+    text-decoration: underline;
+    color: #4D8BC5;
+}
+
+.honor-awards li {
+    display: inline-block;
+    margin-inline-end: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* My Time Table File */
+
+.timetable {
+    margin: 5% auto; 
+    font-size: 150%;
+    text-align: center;
+}
+
+.timetable h1 {
+    text-decoration: underline;
+}
+
+table, tr, td, th {
+    border: solid #2B343F;
+    margin: 0% auto;
+}
+
+/* Course Videos File */
+
+.coursevideos {
+    text-align: center;
+}
+
+.coursevideos h1, .coursevideos h2 {
+    text-decoration: underline;
+}
+
+/* Amazing paragraphs settings */
+.paragraphs img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+/* General settings */
+
+a {
+    color: #4D8BC5;
+}
+
+footer p {
+    text-align: right;
+}
